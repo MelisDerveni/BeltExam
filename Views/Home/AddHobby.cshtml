@@ -1,0 +1,23 @@
+@model Hobby
+<h1>Create a Hobby</h1>
+
+<form action="AddThisHobby"  method="post">
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input placeholder="Name:" class="form-control my-3 p-2" name="HobbyName">
+            <span asp-validation-for ="HobbyName"></span>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input  placeholder="Hobby Description:" class="form-control my-3 p-2" name="HobbyDescription">
+            <span asp-validation-for ="HobbyDescription"></span>
+        </div>
+    </div>
+    
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input type="submit" value="Add Hobby" class="form-control my-3 p-2 btn1 mt-3 mb-5">
+        </div>
+    </div>
+</form>

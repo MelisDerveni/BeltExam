@@ -1,0 +1,71 @@
+
+<a href="Logout">Log out</a>
+
+<div class="row">
+    <div class="col-sm-6">
+
+<h1>Hobbies</h1>
+
+<table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Enthusiasts</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                @foreach (var Hobby in ViewBag.AllHobbies)
+                {
+                <tr>
+                    <td><a href="Hobby/@Hobby.HobbyId"> @Hobby.HobbyName </a></td>
+                    <td>@Hobby.Enthusiasts.Count</td>
+
+                </tr>
+                }
+
+
+            </tbody>
+
+</table> 
+<a href="AddHobby">Create a Hobby</a>
+    </div>
+
+    <div class="col-sm-6 container box">
+        <h3>Top Novice:
+            @foreach (var item in ViewBag.Novice)
+            {
+                
+                <p>@item.HobbyQePelqehet.HobbyName</p>
+            }
+            @if(ViewBag.Novice == null)
+            {
+                <p>None</p>
+            }
+        </h3>
+        <h3>Top Intermediate:
+            @foreach (var item in ViewBag.Intermediate)
+            {
+                
+                <p>@item.HobbyQePelqehet.HobbyName</p>
+            }
+            @if(ViewBag.Intermediate == null)
+            {
+                <p>None</p>
+            }
+        </h3>
+        <h3>Top Expert:
+            @foreach (var item in ViewBag.Expert)
+            {
+                
+                <p>@item.HobbyQePelqehet.HobbyName</p>
+            }
+            @if(ViewBag.Expert == null)
+            {
+                <p>None</p>
+            }
+        </h3>
+
+    </div>
+</div>           

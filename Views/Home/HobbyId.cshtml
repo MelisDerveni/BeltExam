@@ -1,0 +1,36 @@
+<h1>@ViewBag.ThisHobby.HobbyName</h1>
+
+<h3>Description: @ViewBag.ThisHobby.HobbyDescription</h3>
+
+<div class="row">
+    <div class="col-sm-6">
+        <p>Hiking Enthusiasts:</p>
+        @foreach (var User in ViewBag.ThisHobby.Enthusiasts)
+        {
+            <p>@User.UseriQePelqen.UserName , @User.Type</p>
+            
+        }
+        
+
+    
+    </div>
+    
+    <div class="col-sm-6">
+        <form action="/Hobby/Enthusiast/@ViewBag.ThisHobby.HobbyId"   method= "post">
+    <select name="type" >
+    <option value="Expert">Expert</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Novice">Novice</option>
+
+    </select>
+
+    <br>
+
+    <button type="submit">Add to Hobbies</button>
+    </form>
+
+    <a href="EditHobby/@ViewBag.ThisHobby.HobbyId">Edit Hobby</a>
+        
+
+    </div>
+</div>

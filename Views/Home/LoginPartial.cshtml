@@ -1,0 +1,24 @@
+@model LoginUser
+
+<h2>Login !</h2>
+
+<form action="Login"  method="post">
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input placeholder="Username:" class="form-control my-3 p-2" name="UserName">
+            <span asp-validation-for ="UserName"></span>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input  placeholder="Password:" class="form-control my-3 p-2" name="Password">
+            <span asp-validation-for ="Password"></span>
+        </div>
+    </div>
+    
+    <div class="form-row">
+        <div class="col-lg-3">
+            <input type="submit" value="Login" class="form-control my-3 p-2 btn1 mt-3 mb-5">
+        </div>
+    </div>
+</form>
