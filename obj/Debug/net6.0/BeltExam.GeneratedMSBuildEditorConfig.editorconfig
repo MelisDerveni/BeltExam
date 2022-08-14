@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BeltExam
 build_property.RootNamespace = BeltExam
-build_property.ProjectDir = C:\Users\User\Desktop\BeltExam\
+build_property.ProjectDir = c:\Users\User\Desktop\BeltExam\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\BeltExam
+build_property.MSBuildProjectDirectory = c:\Users\User\Desktop\BeltExam
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/AddHobby.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/AddHobby.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRIb2JieS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/Dashbord.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/Dashbord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/EditHobby.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/EditHobby.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0SG9iYnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/HobbyId.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/HobbyId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb2JieUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/Index.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/LoginPartial.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/Privacy.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Home/RegisterPartial.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Home/RegisterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Shared/Error.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/_ViewImports.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/_ViewStart.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/BeltExam/Views/Shared/_Layout.cshtml]
+[c:/Users/User/Desktop/BeltExam/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yxcmep9odk
